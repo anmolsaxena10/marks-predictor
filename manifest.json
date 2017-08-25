@@ -3,22 +3,22 @@
   "name": "Predictor",
   "icons": [
     {
-      "src": "/Samples/Predictor/imageset/ic_equalizer_48pt.png",
+      "src": "/imageset/ic_equalizer_48pt.png",
       "type": "image/png",
       "sizes": "48x48"
     },
     {
-      "src": "/Samples/Predictor/imageset/ic_equalizer_48pt_2x.png",
+      "src": "/imageset/ic_equalizer_48pt_2x.png",
       "type": "image/png",
       "sizes": "96x96"
     },
     {
-      "src": "/Samples/Predictor/imageset/ic_equalizer_48pt_3x.png",
+      "src": "/imageset/ic_equalizer_48pt_3x.png",
       "type": "image/png",
       "sizes": "144x144"
     }
   ],
-  "start_url": "/Samples/Predictor/index.html",
+  "start_url": "/index.html",
   "background_color": "#3E4EB8",
   "theme_color": "#2F3BA2",
   "display": "standalone"
