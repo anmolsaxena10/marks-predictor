@@ -9,10 +9,10 @@ function calculate(){
 	var sess = (parseInt(sess1,10)+parseInt(sess2,10)+parseInt(sess3,10))/3;
 	var total=0;
 	
-	if(document.getElementById('practical').disabled != false){
+	if(document.getElementById('practical').disabled == false){
 		total = 150;
 	}
-	else if(document.getElementById('practical').disabled == false){
+	else if(document.getElementById('practical').disabled != false){
 		total = 100;
 	}
 	
@@ -34,6 +34,9 @@ function calculate(){
 		}
 		if(maxExt > 60){
 			maxExt = 60;
+		}
+		if(maxExt < 0){
+			maxExt = 0;
 		}
 		if(maxPer == 100){
 			maxPer -= 5.51;
