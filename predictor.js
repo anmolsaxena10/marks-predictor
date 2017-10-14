@@ -56,12 +56,12 @@ function calculate(){
 	
 	alert(
 		"External Marks Required\n"+
-		"For "+result[0].pointer+" :"+"  "+result[0].minMarks+" - "+result[0].maxMarks+"\n"+
-		"For "+result[1].pointer+" :"+"  "+result[1].minMarks+" - "+result[1].maxMarks+"\n"+
-		"For "+result[2].pointer+" :"+"  "+result[2].minMarks+" - "+result[2].maxMarks+"\n"+
-		"For "+result[3].pointer+" :"+"  "+result[3].minMarks+" - "+result[3].maxMarks+"\n"+
-		"For "+result[4].pointer+" :"+"  "+result[4].minMarks+" - "+result[4].maxMarks+"\n"+
-		"For "+result[5].pointer+" :"+"  "+result[5].minMarks+" - "+result[5].maxMarks+"\n"
+		"For "+result[0].pointer+" :"+"  "+parseInt(result[0].minMarks)+" - "+parseInt(result[0].maxMarks)+"\n"+
+		"For "+result[1].pointer+" :"+"  "+parseInt(result[1].minMarks)+" - "+parseInt(result[1].maxMarks)+"\n"+
+		"For "+result[2].pointer+" :"+"  "+parseInt(result[2].minMarks)+" - "+parseInt(result[2].maxMarks)+"\n"+
+		"For "+result[3].pointer+" :"+"  "+parseInt(result[3].minMarks)+" - "+parseInt(result[3].maxMarks)+"\n"+
+		"For "+result[4].pointer+" :"+"  "+parseInt(result[4].minMarks)+" - "+parseInt(result[4].maxMarks)+"\n"+
+		"For "+result[5].pointer+" :"+"  "+parseInt(result[5].minMarks)+" - "+parseInt(result[5].maxMarks)+"\n"
 	);
 	
 }
